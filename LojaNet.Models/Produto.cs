@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace LojaNet.Models
 {
-    public class Cliente
+    public class Produto
     {
         public string Id { get; set; }
         public string Nome { get; set; }
-        public string Email { get; set; }
-        public string Telefone { get; set; }
-
+        public decimal Preco { get; set; }
+        public int Estoque { get; set; }
     }
+
 }

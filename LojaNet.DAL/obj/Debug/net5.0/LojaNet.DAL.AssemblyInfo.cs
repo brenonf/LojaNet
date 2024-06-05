@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("LojaNet.Models")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("LojaNet.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ef8041de9d73d75e7df40d9216aaeb2c0171b73")]
-[assembly: System.Reflection.AssemblyProductAttribute("LojaNet.Models")]
-[assembly: System.Reflection.AssemblyTitleAttribute("LojaNet.Models")]
+[assembly: System.Reflection.AssemblyProductAttribute("LojaNet.DAL")]
+[assembly: System.Reflection.AssemblyTitleAttribute("LojaNet.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
