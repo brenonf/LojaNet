@@ -21,7 +21,7 @@ namespace LojaNet.DAL
 
         public void Incluir(Cliente cliente)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
         }
 
         public Cliente ObterPorEmail(string email)

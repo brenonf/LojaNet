@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LojaNet.Models")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9be1c498973ec061a10a5f7cb4927f308aae66fb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5836144dd2bb23d875748068d883091990e305ea")]
 [assembly: System.Reflection.AssemblyProductAttribute("LojaNet.Models")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LojaNet.Models")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
