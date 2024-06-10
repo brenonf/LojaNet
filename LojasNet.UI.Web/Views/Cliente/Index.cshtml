@@ -1,4 +1,4 @@
-﻿@model LojaNet.Models.Cliente
+﻿@model IEnumerable<LojaNet.Models.Cliente>
 
 @{
     ViewData["Title"] = "Clientes";
@@ -6,4 +6,21 @@
 }
 
 <h2>Clientes</h2>
+<p>
 <a class="btn btn-info "href="/Cliente/Incluir">Novo</a>
+</p>
+
+<table class="table">
+    <tr>
+        <th>Nome</th>
+        <th>Email</th>
+    </tr>
+    @foreach(var cliente in Model)
+    {
+        <tr>
+            <td>@cliente.Nome</td>
+            <td>@cliente.Email</td>
+
+        </tr>
+    }
+</table>
