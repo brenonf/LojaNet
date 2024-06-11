@@ -1,0 +1,20 @@
+﻿@model LojaNet.Models.Cliente
+
+@{
+    ViewData["Title"] = "Excluir";
+}
+
+<h2>Excluir</h2>
+<hr/>
+<h4>Confirma a EXCLUSÃO deste cliente?</h4>
+
+<p class="font-weight-bold">@Model.Nome</p>
+
+
+<form method="post" action="@Url.Action("ConfirmarExcluir", "Cliente")">
+    <input type="hidden" name="id" value="@Model.Id" />
+    <hr />
+    <a href="@Url.Action("Index", "Cliente")" class="btn btn-voltar">Voltar</a>
+    <input type="submit" value="Excluir" class="btn btn-danger" />
+</form>
+

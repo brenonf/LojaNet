@@ -73,3 +73,13 @@ body {
 .input-small {
     width: 500px; 
 }
+
+.btn-voltar {
+    color: aliceblue !important;
+    background-color: cornflowerblue !important;
+}
+
+.btn-gravar{
+    color:white;
+    background-color:darkgreen;    
+}

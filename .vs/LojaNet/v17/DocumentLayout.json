@@ -3,40 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Breno\\Desktop\\Breno\\C#\\LojaNet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{49E108AC-93FD-4080-AC63-96A883AFB6E5}|LojaNet.BLL\\LojaNet.BLL.csproj|c:\\users\\breno\\desktop\\breno\\c#\\lojanet\\lojanet.bll\\clientebll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49E108AC-93FD-4080-AC63-96A883AFB6E5}|LojaNet.BLL\\LojaNet.BLL.csproj|solutionrelative:lojanet.bll\\clientebll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F50E3FB1-5CFB-4BBC-BCE4-5F89050DA2ED}|LojasNet.UI.Web\\LojaNet.UI.Web.csproj|c:\\users\\breno\\desktop\\breno\\c#\\lojanet\\lojasnet.ui.web\\views\\cliente\\incluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F50E3FB1-5CFB-4BBC-BCE4-5F89050DA2ED}|LojasNet.UI.Web\\LojaNet.UI.Web.csproj|solutionrelative:lojasnet.ui.web\\views\\cliente\\incluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5C8DB12-D217-4B3E-BD7F-0AC69764AD78}|LojaNet.DAL\\LojaNet.DAL.csproj|c:\\users\\breno\\desktop\\breno\\c#\\lojanet\\lojanet.dal\\clientedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5C8DB12-D217-4B3E-BD7F-0AC69764AD78}|LojaNet.DAL\\LojaNet.DAL.csproj|solutionrelative:lojanet.dal\\clientedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F50E3FB1-5CFB-4BBC-BCE4-5F89050DA2ED}|LojasNet.UI.Web\\LojaNet.UI.Web.csproj|c:\\users\\breno\\desktop\\breno\\c#\\lojanet\\lojasnet.ui.web\\views\\cliente\\alterar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F50E3FB1-5CFB-4BBC-BCE4-5F89050DA2ED}|LojasNet.UI.Web\\LojaNet.UI.Web.csproj|solutionrelative:lojasnet.ui.web\\views\\cliente\\alterar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F50E3FB1-5CFB-4BBC-BCE4-5F89050DA2ED}|LojasNet.UI.Web\\LojaNet.UI.Web.csproj|c:\\users\\breno\\desktop\\breno\\c#\\lojanet\\lojasnet.ui.web\\views\\cliente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F50E3FB1-5CFB-4BBC-BCE4-5F89050DA2ED}|LojasNet.UI.Web\\LojaNet.UI.Web.csproj|solutionrelative:lojasnet.ui.web\\views\\cliente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F50E3FB1-5CFB-4BBC-BCE4-5F89050DA2ED}|LojasNet.UI.Web\\LojaNet.UI.Web.csproj|c:\\users\\breno\\desktop\\breno\\c#\\lojanet\\lojasnet.ui.web\\views\\cliente\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F50E3FB1-5CFB-4BBC-BCE4-5F89050DA2ED}|LojasNet.UI.Web\\LojaNet.UI.Web.csproj|solutionrelative:lojasnet.ui.web\\views\\cliente\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F50E3FB1-5CFB-4BBC-BCE4-5F89050DA2ED}|LojasNet.UI.Web\\LojaNet.UI.Web.csproj|c:\\users\\breno\\desktop\\breno\\c#\\lojanet\\lojasnet.ui.web\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F50E3FB1-5CFB-4BBC-BCE4-5F89050DA2ED}|LojasNet.UI.Web\\LojaNet.UI.Web.csproj|solutionrelative:lojasnet.ui.web\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5C8DB12-D217-4B3E-BD7F-0AC69764AD78}|LojaNet.DAL\\LojaNet.DAL.csproj|c:\\users\\breno\\desktop\\breno\\c#\\lojanet\\lojanet.dal\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5C8DB12-D217-4B3E-BD7F-0AC69764AD78}|LojaNet.DAL\\LojaNet.DAL.csproj|solutionrelative:lojanet.dal\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F50E3FB1-5CFB-4BBC-BCE4-5F89050DA2ED}|LojasNet.UI.Web\\LojaNet.UI.Web.csproj|c:\\users\\breno\\desktop\\breno\\c#\\lojanet\\lojasnet.ui.web\\views\\cliente\\detalhes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F50E3FB1-5CFB-4BBC-BCE4-5F89050DA2ED}|LojasNet.UI.Web\\LojaNet.UI.Web.csproj|solutionrelative:lojasnet.ui.web\\views\\cliente\\detalhes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F50E3FB1-5CFB-4BBC-BCE4-5F89050DA2ED}|LojasNet.UI.Web\\LojaNet.UI.Web.csproj|c:\\users\\breno\\desktop\\breno\\c#\\lojanet\\lojasnet.ui.web\\views\\cliente\\incluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F50E3FB1-5CFB-4BBC-BCE4-5F89050DA2ED}|LojasNet.UI.Web\\LojaNet.UI.Web.csproj|solutionrelative:lojasnet.ui.web\\views\\cliente\\incluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{49E108AC-93FD-4080-AC63-96A883AFB6E5}|LojaNet.BLL\\LojaNet.BLL.csproj|c:\\users\\breno\\desktop\\breno\\c#\\lojanet\\lojanet.bll\\clientebll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49E108AC-93FD-4080-AC63-96A883AFB6E5}|LojaNet.BLL\\LojaNet.BLL.csproj|solutionrelative:lojanet.bll\\clientebll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F50E3FB1-5CFB-4BBC-BCE4-5F89050DA2ED}|LojasNet.UI.Web\\LojaNet.UI.Web.csproj|c:\\users\\breno\\desktop\\breno\\c#\\lojanet\\lojasnet.ui.web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{F50E3FB1-5CFB-4BBC-BCE4-5F89050DA2ED}|LojasNet.UI.Web\\LojaNet.UI.Web.csproj|solutionrelative:lojasnet.ui.web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F50E3FB1-5CFB-4BBC-BCE4-5F89050DA2ED}|LojasNet.UI.Web\\LojaNet.UI.Web.csproj|c:\\users\\breno\\desktop\\breno\\c#\\lojanet\\lojasnet.ui.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{F50E3FB1-5CFB-4BBC-BCE4-5F89050DA2ED}|LojasNet.UI.Web\\LojaNet.UI.Web.csproj|solutionrelative:lojasnet.ui.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{F50E3FB1-5CFB-4BBC-BCE4-5F89050DA2ED}|LojasNet.UI.Web\\LojaNet.UI.Web.csproj|c:\\users\\breno\\desktop\\breno\\c#\\lojanet\\lojasnet.ui.web\\views\\cliente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F50E3FB1-5CFB-4BBC-BCE4-5F89050DA2ED}|LojasNet.UI.Web\\LojaNet.UI.Web.csproj|solutionrelative:lojasnet.ui.web\\views\\cliente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F50E3FB1-5CFB-4BBC-BCE4-5F89050DA2ED}|LojasNet.UI.Web\\LojaNet.UI.Web.csproj|c:\\users\\breno\\desktop\\breno\\c#\\lojanet\\lojasnet.ui.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F50E3FB1-5CFB-4BBC-BCE4-5F89050DA2ED}|LojasNet.UI.Web\\LojaNet.UI.Web.csproj|solutionrelative:lojasnet.ui.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A5C8DB12-D217-4B3E-BD7F-0AC69764AD78}|LojaNet.DAL\\LojaNet.DAL.csproj|c:\\users\\breno\\desktop\\breno\\c#\\lojanet\\lojanet.dal\\clientedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5C8DB12-D217-4B3E-BD7F-0AC69764AD78}|LojaNet.DAL\\LojaNet.DAL.csproj|solutionrelative:lojanet.dal\\clientedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5C8DB12-D217-4B3E-BD7F-0AC69764AD78}|LojaNet.DAL\\LojaNet.DAL.csproj|c:\\users\\breno\\desktop\\breno\\c#\\lojanet\\lojanet.dal\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5C8DB12-D217-4B3E-BD7F-0AC69764AD78}|LojaNet.DAL\\LojaNet.DAL.csproj|solutionrelative:lojanet.dal\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F50E3FB1-5CFB-4BBC-BCE4-5F89050DA2ED}|LojasNet.UI.Web\\LojaNet.UI.Web.csproj|c:\\users\\breno\\desktop\\breno\\c#\\lojanet\\lojasnet.ui.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -54,37 +58,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Excluir.cshtml",
+              "DocumentMoniker": "C:\\Users\\Breno\\Desktop\\Breno\\C#\\LojaNet\\LojasNet.UI.Web\\Views\\Cliente\\Excluir.cshtml",
+              "RelativeDocumentMoniker": "LojasNet.UI.Web\\Views\\Cliente\\Excluir.cshtml",
+              "ToolTip": "C:\\Users\\Breno\\Desktop\\Breno\\C#\\LojaNet\\LojasNet.UI.Web\\Views\\Cliente\\Excluir.cshtml",
+              "RelativeToolTip": "LojasNet.UI.Web\\Views\\Cliente\\Excluir.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T18:48:04.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Alterar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Breno\\Desktop\\Breno\\C#\\LojaNet\\LojasNet.UI.Web\\Views\\Cliente\\Alterar.cshtml",
+              "RelativeDocumentMoniker": "LojasNet.UI.Web\\Views\\Cliente\\Alterar.cshtml",
+              "ToolTip": "C:\\Users\\Breno\\Desktop\\Breno\\C#\\LojaNet\\LojasNet.UI.Web\\Views\\Cliente\\Alterar.cshtml",
+              "RelativeToolTip": "LojasNet.UI.Web\\Views\\Cliente\\Alterar.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T18:12:49.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Detalhes.cshtml",
+              "DocumentMoniker": "C:\\Users\\Breno\\Desktop\\Breno\\C#\\LojaNet\\LojasNet.UI.Web\\Views\\Cliente\\Detalhes.cshtml",
+              "RelativeDocumentMoniker": "LojasNet.UI.Web\\Views\\Cliente\\Detalhes.cshtml",
+              "ToolTip": "C:\\Users\\Breno\\Desktop\\Breno\\C#\\LojaNet\\LojasNet.UI.Web\\Views\\Cliente\\Detalhes.cshtml",
+              "RelativeToolTip": "LojasNet.UI.Web\\Views\\Cliente\\Detalhes.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwBcAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T17:34:41.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Breno\\Desktop\\Breno\\C#\\LojaNet\\LojasNet.UI.Web\\Views\\Cliente\\Index.cshtml",
               "RelativeDocumentMoniker": "LojasNet.UI.Web\\Views\\Cliente\\Index.cshtml",
               "ToolTip": "C:\\Users\\Breno\\Desktop\\Breno\\C#\\LojaNet\\LojasNet.UI.Web\\Views\\Cliente\\Index.cshtml",
               "RelativeToolTip": "LojasNet.UI.Web\\Views\\Cliente\\Index.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAATAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-09T23:17:04.25Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "ClienteBLL.cs",
               "DocumentMoniker": "C:\\Users\\Breno\\Desktop\\Breno\\C#\\LojaNet\\LojaNet.BLL\\ClienteBLL.cs",
               "RelativeDocumentMoniker": "LojaNet.BLL\\ClienteBLL.cs",
               "ToolTip": "C:\\Users\\Breno\\Desktop\\Breno\\C#\\LojaNet\\LojaNet.BLL\\ClienteBLL.cs",
               "RelativeToolTip": "LojaNet.BLL\\ClienteBLL.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAmwB4AAAAlAAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwDkAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T23:14:43.693Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "DbHelper.cs",
               "DocumentMoniker": "C:\\Users\\Breno\\Desktop\\Breno\\C#\\LojaNet\\LojaNet.DAL\\DbHelper.cs",
               "RelativeDocumentMoniker": "LojaNet.DAL\\DbHelper.cs",
@@ -92,12 +135,11 @@
               "RelativeToolTip": "LojaNet.DAL\\DbHelper.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAQwBkAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T20:23:25.274Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T20:23:25.274Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "ClienteDAL.cs",
               "DocumentMoniker": "C:\\Users\\Breno\\Desktop\\Breno\\C#\\LojaNet\\LojaNet.DAL\\ClienteDAL.cs",
               "RelativeDocumentMoniker": "LojaNet.DAL\\ClienteDAL.cs",
@@ -105,8 +147,7 @@
               "RelativeToolTip": "LojaNet.DAL\\ClienteDAL.cs",
               "ViewState": "AQIAADcAAAAAAAAAAAAcwBgAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T19:58:20.208Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T19:58:20.208Z"
             },
             {
               "$type": "Document",
@@ -116,20 +157,20 @@
               "RelativeDocumentMoniker": "LojasNet.UI.Web\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\Breno\\Desktop\\Breno\\C#\\LojaNet\\LojasNet.UI.Web\\wwwroot\\css\\site.css",
               "RelativeToolTip": "LojasNet.UI.Web\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAADYAAAAAAAAAAIBJwEkAAAANAAAA",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAFMAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-06-06T18:57:18.001Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Incluir.cshtml",
               "DocumentMoniker": "C:\\Users\\Breno\\Desktop\\Breno\\C#\\LojaNet\\LojasNet.UI.Web\\Views\\Cliente\\Incluir.cshtml",
               "RelativeDocumentMoniker": "LojasNet.UI.Web\\Views\\Cliente\\Incluir.cshtml",
               "ToolTip": "C:\\Users\\Breno\\Desktop\\Breno\\C#\\LojaNet\\LojasNet.UI.Web\\Views\\Cliente\\Incluir.cshtml",
               "RelativeToolTip": "LojasNet.UI.Web\\Views\\Cliente\\Incluir.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAABZAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-06T18:33:15.737Z",
               "EditorCaption": ""
@@ -142,40 +183,14 @@
               "RelativeDocumentMoniker": "LojasNet.UI.Web\\Controllers\\ClienteController.cs",
               "ToolTip": "C:\\Users\\Breno\\Desktop\\Breno\\C#\\LojaNet\\LojasNet.UI.Web\\Controllers\\ClienteController.cs",
               "RelativeToolTip": "LojasNet.UI.Web\\Controllers\\ClienteController.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAowB8AAAAkAAAA",
+              "ViewState": "AQIAAEgAAAAAAAAAAAA4wFkAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T18:05:32.665Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "bootstrap.css",
-              "DocumentMoniker": "C:\\Users\\Breno\\Desktop\\Breno\\C#\\LojaNet\\LojasNet.UI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "RelativeDocumentMoniker": "LojasNet.UI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "ToolTip": "C:\\Users\\Breno\\Desktop\\Breno\\C#\\LojaNet\\LojasNet.UI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "RelativeToolTip": "LojasNet.UI.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "ViewState": "AQIAAK8ZAAAAAAAAAAAWwLsZAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-06T17:58:00.405Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Breno\\Desktop\\Breno\\C#\\LojaNet\\LojasNet.UI.Web\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "LojasNet.UI.Web\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Breno\\Desktop\\Breno\\C#\\LojaNet\\LojasNet.UI.Web\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "LojasNet.UI.Web\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T17:26:50.776Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Breno\\Desktop\\Breno\\C#\\LojaNet\\LojasNet.UI.Web\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "LojasNet.UI.Web\\Views\\Shared\\_Layout.cshtml",
@@ -183,12 +198,11 @@
               "RelativeToolTip": "LojasNet.UI.Web\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T17:21:10.548Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T17:21:10.548Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Breno\\Desktop\\Breno\\C#\\LojaNet\\LojasNet.UI.Web\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "LojasNet.UI.Web\\Views\\Home\\Index.cshtml",
@@ -196,8 +210,7 @@
               "RelativeToolTip": "LojasNet.UI.Web\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T17:17:05.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T17:17:05.104Z"
             }
           ]
         }

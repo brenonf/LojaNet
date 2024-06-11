@@ -18,7 +18,9 @@
     @foreach(var cliente in Model)
     {
         <tr>
-            <td>@cliente.Nome</td>
+            <td>
+                @Html.ActionLink(cliente.Nome,"Detalhes", new {id = cliente.Id})
+            </td>
             <td>@cliente.Email</td>
 
         </tr>

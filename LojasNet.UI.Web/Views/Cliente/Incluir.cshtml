@@ -6,13 +6,14 @@
 
 <h2>Incluir</h2>
 
+<hr/>
 <form method="post" class="form-horizontal">
 
     @Html.ValidationSummary(null,new {@class="text-danger"})
 
     <div class="form-group">
         <label class="control-label" for="Nome">Nome:</label>
-        <input class="form-control input-small" type="text" name="Nome" valr="@Model.Nome" />
+        <input class="form-control input-small" type="text" name="Nome" value="@Model.Nome" />
     </div>
     <div class="form-group">
         <label class="control-label" for="Telefone">Telefone:</label>
@@ -23,5 +24,5 @@
         <label class="control-label" for="Email">Email:</label>
         <input class="form-control input-small" type="text" name="Email" value="@Model.Email"/>
     </div>
-<input class="btn btn-default" type="submit" value="Gravar" />
+<input class="btn btn-default btn-gravar" type="submit" value="Gravar" />
 </form>
