@@ -8,14 +8,23 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web;
 using LojaNet.Models;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Http.Abstractions;
+using Microsoft.Extensions.Configuration;
+
 
 
 namespace LojaNet.DAL
 {
+
     public class ClienteDAL : IClienteDados
     {
+        private readonly string _appDataPath;
+        private readonly IConfiguration _configuration;
+
+        public ClienteDAL(IConfiguration configuration)
+        {
+            _appDataPath = configuration.GetSection("AppSettings")["AppDataPath"];
+        }
+
         public void Alterar(Cliente cliente)
         {
             DbHelper.ExecuteNonQuery("ClienteAlterar",
@@ -25,21 +34,16 @@ namespace LojaNet.DAL
                 "@Telefone", cliente.Telefone
                 );
         }
-
+        
         public void Excluir(string Id)
         {
-            /*string pasta = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "App_Data");
-            string arquivo = Path.Combine(pasta, $"Cliente_{Id}.xml");*/
-            string pasta = Path.Combine(AppDomain.CurrentDomain.GetData("DataDirectory").ToString());
+            string pasta = Path.Combine(Directory.GetCurrentDirectory(), "App_Data");
             string arquivo = Path.Combine(pasta, $"Cliente_{Id}.xml");
-
-            //string arquivo = @"C:\Users\Breno\Desktop\Breno\C#\visualizador\teste.xml";
-
             Cliente cliente = ObterPorId(Id);
             SerializadorHelper.Serializar(arquivo, cliente);
             DbHelper.ExecuteNonQuery("ClienteExcluir", "@Id", Id);                        
         }
-
+        
         public void Incluir(Cliente cliente)
         {
             DbHelper.ExecuteNonQuery("ClienteIncluir",

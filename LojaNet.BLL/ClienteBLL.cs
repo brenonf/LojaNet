@@ -5,15 +5,16 @@ using System.Text;
 using System.Threading.Tasks;
 using LojaNet.Models;
 using LojaNet.DAL;
+using Microsoft.Extensions.Configuration;
 
 namespace LojaNet.BLL
 {
     public class ClienteBLL : IClienteDados
     {
         private ClienteDAL dal;
-        public ClienteBLL()
+        public ClienteBLL(IConfiguration configuration)
         {
-            this.dal = new ClienteDAL();
+            this.dal = new ClienteDAL(configuration);
         }
 
         public void Alterar(Cliente cliente)

@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using LojaNet.Models;
 using LojaNet.BLL;
 using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Configuration;
 
 namespace LojasNet.UI.Web.Controllers
 {
@@ -10,9 +11,9 @@ namespace LojasNet.UI.Web.Controllers
     {
         private ClienteBLL bll;
 
-        public ClienteController()
+        public ClienteController(IConfiguration configuration)
         {
-            bll = new ClienteBLL();
+            bll = new ClienteBLL(configuration);
         }
 
         public ActionResult Detalhes(string id)
@@ -70,7 +71,7 @@ namespace LojasNet.UI.Web.Controllers
         }
 
         [HttpPost]
-        public ActionResult ConfirmarExcluir(string id)
+        public ActionResult Excluir(string id, IFormCollection form)
         {
             try
             {

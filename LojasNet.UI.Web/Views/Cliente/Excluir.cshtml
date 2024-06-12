@@ -11,7 +11,7 @@
 <p class="font-weight-bold">@Model.Nome</p>
 
 
-<form method="post" action="@Url.Action("ConfirmarExcluir", "Cliente")">
+<form method="post">
     <input type="hidden" name="id" value="@Model.Id" />
     <hr />
     <a href="@Url.Action("Index", "Cliente")" class="btn btn-voltar">Voltar</a>
