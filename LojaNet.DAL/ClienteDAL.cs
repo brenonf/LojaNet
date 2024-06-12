@@ -1,10 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.IO;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web;
 using LojaNet.Models;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.Abstractions;
+
 
 namespace LojaNet.DAL
 {
@@ -22,6 +28,15 @@ namespace LojaNet.DAL
 
         public void Excluir(string Id)
         {
+            /*string pasta = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "App_Data");
+            string arquivo = Path.Combine(pasta, $"Cliente_{Id}.xml");*/
+            string pasta = Path.Combine(AppDomain.CurrentDomain.GetData("DataDirectory").ToString());
+            string arquivo = Path.Combine(pasta, $"Cliente_{Id}.xml");
+
+            //string arquivo = @"C:\Users\Breno\Desktop\Breno\C#\visualizador\teste.xml";
+
+            Cliente cliente = ObterPorId(Id);
+            SerializadorHelper.Serializar(arquivo, cliente);
             DbHelper.ExecuteNonQuery("ClienteExcluir", "@Id", Id);                        
         }
 
