@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Cliente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Id>b7046762-1f34-426f-b5a3-38807974054c</Id>
-  <Nome>1</Nome>
-  <Email>3</Email>
-  <Telefone>2</Telefone>
-</Cliente>
