@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LojaNet.DAL", "LojaNet.DAL\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LojaNet.BLL", "LojaNet.BLL\LojaNet.BLL.csproj", "{49E108AC-93FD-4080-AC63-96A883AFB6E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaNet.UI.Web", "LojasNet.UI.Web\LojaNet.UI.Web.csproj", "{F50E3FB1-5CFB-4BBC-BCE4-5F89050DA2ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LojaNet.UI.Web", "LojasNet.UI.Web\LojaNet.UI.Web.csproj", "{F50E3FB1-5CFB-4BBC-BCE4-5F89050DA2ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaNet.Services", "LojaNet.Services\LojaNet.Services.csproj", "{4F3FA91A-5202-4300-94C0-15557406CB07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{F50E3FB1-5CFB-4BBC-BCE4-5F89050DA2ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F50E3FB1-5CFB-4BBC-BCE4-5F89050DA2ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F50E3FB1-5CFB-4BBC-BCE4-5F89050DA2ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F3FA91A-5202-4300-94C0-15557406CB07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F3FA91A-5202-4300-94C0-15557406CB07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F3FA91A-5202-4300-94C0-15557406CB07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F3FA91A-5202-4300-94C0-15557406CB07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

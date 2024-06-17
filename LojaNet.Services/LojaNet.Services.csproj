@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web" ToolsVersion="Current">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <ProjectGuid>{4F3FA91A-5202-4300-94C0-15557406CB07}</ProjectGuid>
+    <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
+    <UserSecretsId>ff2e33e1-69b3-4187-a1ec-eda14b88ec9b</UserSecretsId>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LojaNet.BLL\LojaNet.BLL.csproj">
+      <Project>{49e108ac-93fd-4080-ac63-96a883afb6e5}</Project>
+      <Name>LojaNet.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LojaNet.Models\LojaNet.Models.csproj">
+      <Project>{a837e9cd-5f75-4a7e-a100-9c35aca0c3a2}</Project>
+      <Name>LojaNet.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <!-- <ItemGroup>
+    <Compile Include="ClienteInfo.cs" />
+    <Compile Include="ConsultaCliente.cs" />
+    <Compile Include="IConsultaCliente.cs" />
+  </ItemGroup> -->
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.ServiceModel.Primitives" Version="4.10.0" />
+    <PackageReference Include="System.ServiceModel.Http" Version="4.10.0" />
+    <PackageReference Include="System.ServiceModel.NetTcp" Version="4.10.0" />
+    <PackageReference Include="System.ServiceModel.Security" Version="4.10.0" />
+  </ItemGroup>
+</Project>
