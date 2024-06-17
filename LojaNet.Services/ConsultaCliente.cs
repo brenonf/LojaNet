@@ -25,7 +25,6 @@ namespace LojaNet.Services
             }
 
             ClienteInfo clienteInfo = null;
-            //var dal = new ClienteDAL();
 
             ClienteBLL bll = new ClienteBLL(_configuration);
             var cliente = bll.ObterPorEmail(email);
