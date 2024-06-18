@@ -4,6 +4,7 @@ using LojaNet.Models;
 using LojaNet.BLL;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
+using LojaNet.DAL;
 
 namespace LojasNet.UI.Web.Controllers
 {
@@ -11,9 +12,14 @@ namespace LojasNet.UI.Web.Controllers
     {
         private ClienteBLL bll;
 
-        public ClienteController(IConfiguration configuration)
+        /*public ClienteController(IConfiguration configuration)
         {
             bll = new ClienteBLL(configuration);
+        }*/
+        public ClienteController()
+        {
+            var dal = new ClienteDAL();
+            bll = new ClienteBLL(dal);
         }
 
         public ActionResult Detalhes(string id)
