@@ -1,25 +1,17 @@
-﻿using System;
-using Microsoft.AspNetCore.Mvc;
-using LojaNet.Models;
-using LojaNet.BLL;
+﻿using LojaNet.Models;
 using Microsoft.AspNetCore.Http;
-using Microsoft.Extensions.Configuration;
-using LojaNet.DAL;
-using LojaNet.UI.Web;
+using Microsoft.AspNetCore.Mvc;
+using System;
 
-namespace LojasNet.UI.Web.Controllers
+namespace LojaNet.UI.Web.Controllers
 {
-    public class ClienteController : Controller
+    public class ProdutoController : Controller
     {
-        private IClienteDados bll;
+        private IProdutosDados bll;
 
-        /*public ClienteController(IConfiguration configuration)
+        public ProdutoController()
         {
-            bll = new ClienteBLL(configuration);
-        }*/
-        public ClienteController()
-        {
-            bll = AppContainer.ObterClienteBLL();
+            bll = AppContainer.ObterProdutoBLL();
         }
 
         public IActionResult Index()
@@ -27,59 +19,58 @@ namespace LojasNet.UI.Web.Controllers
             var lista = bll.ObterTodos();
             return View(lista);
         }
-
         public ActionResult Detalhes(string id)
         {
-            var cliente =bll.ObterPorId(id);
-            return View(cliente);
+            var produto = bll.ObterPorId(id);
+            return View(produto);
         }
 
         public ActionResult Alterar(string id)
         {
-            var cliente = bll.ObterPorId(id);
-            return View(cliente);
+            var produto = bll.ObterPorId(id);
+            return View(produto);
         }
 
         [HttpPost]
-        public ActionResult Alterar(Cliente cliente)
+        public ActionResult Alterar(Produto produto)
         {
             try
             {
-                bll.Alterar(cliente);
+                bll.Alterar(produto);
                 return RedirectToAction("index");
             }
             catch (Exception ex)
             {
                 ModelState.AddModelError(string.Empty, ex.Message);
-                return View(cliente);
+                return View(produto);
             }
         }
 
         public ActionResult Incluir()
         {
-            var cliente = new Cliente();
-            return View(cliente); 
+            var produto = new Produto();
+            return View(produto);
         }
 
         [HttpPost]
-        public ActionResult Incluir(Cliente cliente)
+        public ActionResult Incluir(Produto produto)
         {
             try
             {
-                bll.Incluir(cliente);
+                bll.Incluir(produto);
                 return RedirectToAction("index");
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 ModelState.AddModelError(string.Empty, ex.Message);
-                return View(cliente);
+                return View(produto);
             }
         }
 
         public ActionResult Excluir(string id)
         {
-            var cliente = bll.ObterPorId(id);
-            return View(cliente);
+            var produto = bll.ObterPorId(id);
+            return View(produto);
         }
 
         [HttpPost]
@@ -93,10 +84,9 @@ namespace LojasNet.UI.Web.Controllers
             catch (Exception ex)
             {
                 ModelState.AddModelError(string.Empty, ex.Message);
-                var cliente = bll.ObterPorId(id);
-                return View(cliente);
+                var produto = bll.ObterPorId(id);
+                return View(produto);
             }
         }
-
     }
 }

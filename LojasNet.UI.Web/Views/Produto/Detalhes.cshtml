@@ -1,0 +1,27 @@
+﻿@model LojaNet.Models.Produto
+
+@{
+    ViewData["Title"] = "Detalhes";
+}
+
+<h2>Dados do Produto</h2>
+
+<dl>
+    <dt>Nome:</dt>
+    <dd>@Model.Nome</dd>
+
+    <dt>Preço:</dt>
+    <dd>@Model.Preco.ToString("c")</dd>
+
+    <dt>Estoque:</dt>
+    <dd>@Model.Estoque</dd>
+</dl>
+
+<div>
+    <hr />
+    <a href="/Produto/Index" class="btn btn-voltar">Voltar</a>
+    <a href="/Produto/Alterar/@Model.Id" class="btn btn-dark">Alterar</a>
+    <a href="/Produto/Excluir/@Model.Id" class="btn btn-danger">Excluir</a>
+
+
+</div>
