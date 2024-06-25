@@ -1,14 +1,10 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
+//[assembly: OwinStartup(typeof(LojaNet.UI.Web.Startup))]
 namespace LojasNet.UI.Web
 {
     public class Startup
@@ -25,6 +21,15 @@ namespace LojasNet.UI.Web
         {
             services.AddControllersWithViews();
         }
+
+        //public void Configuration(IAppBuilder app)
+        //{
+        //    app.UseCookieAuthentication(new CookieAuthenticationOptions
+        //    {
+        //        AuthenticationType = DefaultAuthenticationTypes.ApplicationCookie,
+        //        LoginPath = new PathString("/usuario/login")
+        //    });
+        //}
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

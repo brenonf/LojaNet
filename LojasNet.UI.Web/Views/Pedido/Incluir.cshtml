@@ -1,0 +1,49 @@
+﻿@model LojaNet.UI.Web.Models.PedidoViewModel
+
+@{
+    ViewData["Title"] = "Incluir";
+}
+
+<h2>Incluir</h2>
+
+<hr />
+<p>Novo Pedido</p>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Incluir">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"></label>
+                <input asp-for="Id" class="form-control" />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Data" class="control-label"></label>
+                <input asp-for="Data" class="form-control" type="date" />
+                <span asp-validation-for="Data" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ClienteId" class="control-label">Cliente</label>
+                @Html.DropDownListFor(model => model.ClienteId, new SelectList(Model.Clientes,"Id","Nome", Model.ClienteId),new{@class="form-control"})
+                <span asp-validation-for="ClienteId" class="text-danger"> </span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FormaPagamento" class="control-label"></label>
+                <input asp-for="FormaPagamento" class="form-control" />
+                <span asp-validation-for="FormaPagamento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Gravar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
