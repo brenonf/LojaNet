@@ -15,6 +15,8 @@ namespace LojaNet.UI.Web.Models
             this.Itens = new List<Item>();
             this.Data = DateTime.Now;
         }
+        public string NovoItemProdutoId { get; set; }
+        public int NovoItemQuantidade { get; set; }
 
         public string Id { get; set; }
         public DateTime Data { get; set; }

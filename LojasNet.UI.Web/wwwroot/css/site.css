@@ -83,3 +83,19 @@ body {
     color:white;
     background-color:darkgreen;    
 }
+
+table .celula-numero {
+    white-space: nowrap !important;
+    text-align: right !important;
+    
+}
+
+#novoDiv {
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
+}
+
+#novoButton {
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
+}

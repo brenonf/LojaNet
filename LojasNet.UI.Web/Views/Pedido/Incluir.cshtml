@@ -25,16 +25,66 @@
 
             <div class="form-group">
                 <label asp-for="ClienteId" class="control-label">Cliente</label>
-                @Html.DropDownListFor(model => model.ClienteId, new SelectList(Model.Clientes,"Id","Nome", Model.ClienteId),new{@class="form-control"})
-                <span asp-validation-for="ClienteId" class="text-danger"> </span>
+                @Html.DropDownListFor(model => model.ClienteId, new SelectList(Model.Clientes, "Id", "Nome", Model.ClienteId), new { @class = "form-control" })
+                <span asp-validation-for="ClienteId" class="text-danger"></span>
             </div>
+
             <div class="form-group">
-                <label asp-for="FormaPagamento" class="control-label"></label>
-                <input asp-for="FormaPagamento" class="form-control" />
+                <label asp-for="FormaPagamento" class="control-label">Forma de pagamento</label>
+                @Html.DropDownListFor(model => model.FormaPagamento, new SelectList(Model.FormasPagamento, Model.FormaPagamento), new { @class = "form-control" })
                 <span asp-validation-for="FormaPagamento" class="text-danger"></span>
             </div>
+
+            <hr />
+
+            <div>
+                <button type="button" id="novoButton" class="btn btn-primary">Novo...</button>
+            </div>
+
+            <div id="novoDiv" style="display:none">
+                <div class="form-row align-items-end">
+                    <div class="col-auto">
+                        @Html.DropDownListFor(model => model.NovoItemProdutoId, new SelectList(Model.Produtos, "Id", "Nome"), new { @class = "form-control" })
+                    </div>
+                    <div class="col-auto">
+                        @Html.EditorFor(model => model.NovoItemQuantidade, new { htmlAttributes = new { @class = "form-control", style = "width:70px;" } })
+                    </div>
+                    <div class="col-auto">
+                        <button type="submit" name="incluirProduto" value="Incluir" class="btn btn-primary">Adicionar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="novoProduto">
+            </div>
+
+            <div>
+                <table class="table">
+                    <tr>
+                        <th>Nome do Produto</th>
+                        <th style="white-space: nowrap; text-align: right;">Quantidade</th>
+                        <th style="white-space: nowrap; text-align: right;">Preço Unitário</th>
+                        <th style="white-space: nowrap; text-align: right;">Total</th>
+                    </tr>
+                    @for (int i = 0; i < Model.Itens.Count; i++)
+                    {
+                        @Html.HiddenFor(model=>model.Itens[i].ProdutoId)
+                        @Html.HiddenFor(model => model.Itens[i].Nome)
+                        @Html.HiddenFor(model => model.Itens[i].Quantidade)
+                        @Html.HiddenFor(model => model.Itens[i].Valor)
+
+                        <tr>
+                            <td>@Model.Itens[i].Nome</td>
+                            <td style="white-space: nowrap; text-align: right;">@Model.Itens[i].Quantidade</td>
+                            <td style="white-space: nowrap; text-align: right;">@Model.Itens[i].Valor.ToString("c")</td>
+                            <td style="white-space: nowrap; text-align: right;">@Model.Itens[i].Total.ToString("c")</td>
+                        </tr>
+                    }
+                </table>
+            </div>
+
             <div class="form-group">
-                <input type="submit" value="Gravar" class="btn btn-primary" />
+                <input type="submit" name="Gravar" value="Gravar" class="btn btn-primary" />
             </div>
         </form>
     </div>
@@ -45,5 +95,15 @@
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        $(function () {
+            $('#novoButton').click(function () {
+                $('#novoDiv').toggle();
+            });
+        });
+    </script>
 }
