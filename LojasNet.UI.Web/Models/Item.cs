@@ -12,6 +12,8 @@
             {
                 get { return Valor * Quantidade; }
             }
+
+            public decimal Preco { get; set; }
         }
     }
 }

@@ -1,0 +1,31 @@
+﻿@model IEnumerable<LojaNet.Models.Pedido>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Pedidos</h2>
+
+<p>
+    <a class="btn btn-info" href="/Pedido/Incluir">Novo...</a>
+</p>
+
+<table class="table">
+    <tr>
+        <th>Id</th>
+        <th>Cliente</th>
+        <th>Data</th>
+    </tr>
+
+    @foreach (var pedido in Model)
+    {
+        <tr>
+            <td>
+                @Html.ActionLink(pedido.Id.ToString(), "Detalhes", new { id = pedido.Id })
+            </td>
+            <td>
+            @Html.ActionLink(pedido.Cliente.Nome,"Detalhes", new { id = pedido.Id })  </td>
+            <td>@pedido.Data</td>
+    </tr>
+    }
+</table>

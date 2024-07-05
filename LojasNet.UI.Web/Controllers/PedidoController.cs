@@ -2,12 +2,17 @@
 using LojaNet.UI.Web.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace LojaNet.UI.Web.Controllers
 {
     public class PedidoController : Controller
     {
+        private IPedidosDados bll;
+
+        public PedidoController() { bll = AppContainer.ObterPedidoBLL(); }
+
         [HttpPost]
         public IActionResult Incluir(PedidoViewModel pedido)
         {
@@ -16,6 +21,8 @@ namespace LojaNet.UI.Web.Controllers
 
             pedido.Clientes = bllCliente.ObterTodos();
             pedido.Produtos = bllProduto.ObterTodos();
+            pedido.Produtos.Insert(0,new Produto() { Id = string.Empty,Nome=string.Empty });
+
             pedido.FormasPagamento = Enum.GetNames(typeof(FormaPagamentoEnum)).ToList();
 
 
@@ -33,12 +40,39 @@ namespace LojaNet.UI.Web.Controllers
 
             else if (Request.Form["Gravar"]=="Gravar")
             {
-                //var bll = AppContainer.ObterPedidoBll();
-
+                var pedidoModel = ObterModel(pedido);
+                bll.Incluir(pedidoModel);
+                return RedirectToAction("Index");
             }
 
             return View(pedido);
         }
+
+        private Pedido ObterModel(PedidoViewModel pedidoViewModel)
+        {
+            var pedidoModel = new Pedido();
+            pedidoModel.Id = Convert.ToInt32(pedidoViewModel.Id);
+            pedidoModel.Data = pedidoViewModel.Data;
+            pedidoModel.Cliente = new Cliente() { Id = pedidoViewModel.ClienteId };
+            pedidoModel.FormaPagamento = pedidoViewModel.FormaPagamento;
+            pedidoModel.Itens = new List<Pedido.Item>(); 
+
+            int ordem = 1;
+            foreach (var item in pedidoViewModel.Itens)
+            {
+                pedidoModel.Itens.Add(new Pedido.Item()
+                {
+                    Ordem = ordem,
+                    Preco = item.Preco,
+                    Produto = new Produto() { Id = item.ProdutoId },
+                    Quantidade = item.Quantidade
+                });
+                ordem++;
+            }
+            return pedidoModel;
+        }
+
+
         public IActionResult Incluir()
         {
             var bllCliente = AppContainer.ObterClienteBLL();
@@ -54,6 +88,12 @@ namespace LojaNet.UI.Web.Controllers
             
 
             return View(pedido);
+        }
+
+        public ActionResult Index()
+        {
+            var lista = bll.ObterTodos();
+            return View(lista);
         }
     }
 }

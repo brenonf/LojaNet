@@ -19,5 +19,13 @@ namespace LojaNet.UI.Web
             var bll = new ProdutoBLL(dal);
             return bll;
         }
+
+        public static IPedidosDados ObterPedidoBLL()
+        {
+            var dal = new PedidoDAL();
+            var bll = new PedidoBLL(dal);
+            return bll;
+        }
     }
+
 }
